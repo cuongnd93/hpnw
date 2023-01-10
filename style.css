@@ -27,7 +27,7 @@ img {
   position: relative;
 }
 .hpny > div {
-  font-size: 60px;
+  font-size: 3rem;
   color: rgba(243, 242, 242, 0);
   font-family: font-great-vibe;
   font-weight: bold;
@@ -161,6 +161,6 @@ img {
     height: 100vh;
   }
   .hpny > div {
-    font-size: 50px;
+    font-size: 2.5rem;
   }
 }
