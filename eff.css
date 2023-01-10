@@ -44,7 +44,7 @@
   }
 
   .eff {
-    padding: 100px 2px;
+    padding: 50px 2px;
     background-color: rgb(234, 247, 214);
     animation-name: example;
     animation-duration: 3s;
@@ -52,7 +52,7 @@
     border-radius: 50%;
   }
   .eff1 {
-    padding: 150px 2px;
+    padding: 90px 2px;
 
     background-color: rgb(140, 224, 12);
     animation-delay: 1s;
@@ -63,7 +63,7 @@
   }
 
   .eff2 {
-    padding: 80px 2px;
+    padding: 40px 2px;
     background-color: rgb(208, 17, 247);
     animation-delay: 2s;
     animation-name: example;
@@ -72,7 +72,7 @@
     border-radius: 50%;
   }
   .eff3 {
-    padding: 140px 2px;
+    padding: 80px 2px;
     animation-delay: 2s;
     background-color: rgb(216, 203, 15);
     animation-name: example;
@@ -82,7 +82,7 @@
     border-radius: 50%;
   }
   .eff4 {
-    padding: 50px 2px;
+    padding: 30px 2px;
     animation-delay: 4s;
     background-color: rgb(99, 194, 250);
     animation-name: example;
@@ -92,7 +92,7 @@
     border-radius: 50%;
   }
   .eff5 {
-    padding: 60px 2px;
+    padding: 35px 2px;
     animation-delay: 5s;
     background-color: rgb(238, 164, 5);
     animation-name: example;
@@ -101,7 +101,7 @@
     border-radius: 50%;
   }
   .eff6 {
-    padding: 82px 2px;
+    padding: 35px 2px;
     animation-delay: 6s;
     background-color: rgb(191, 5, 238);
     animation-name: example;
@@ -110,7 +110,7 @@
     border-radius: 50%;
   }
   .eff7 {
-    padding: 50px 2px;
+    padding: 30px 2px;
     animation-delay: 7s;
     background-color: rgb(5, 238, 5);
     animation-name: example;
