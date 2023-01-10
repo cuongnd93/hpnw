@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: font-great-vibe;
+  src: url("GreatVibes-Regular.ttf");
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-image: url("hpny.jpg"); */
+}
+
+img {
+  position: relative;
+}
+.hpny > div {
+  font-size: 60px;
+  color: rgba(243, 242, 242, 0);
+  font-family: font-great-vibe;
+  font-weight: bold;
+}
+.text1 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text2 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text3 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text4 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text5 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text6 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text7 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 7s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text8 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 8s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text9 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 9s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text10 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text11 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 11s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text12 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 12s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text13 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 13s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text14 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 14s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text15 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 15s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+.text16 {
+  animation-name: cmnm;
+  animation-fill-mode: forwards;
+  animation-delay: 16s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes cmnm {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    text-shadow: 5px 5px 5px rgb(124, 9, 255);
+    color: rgb(255, 255, 255);
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 820px) {
+  img {
+    height: 100vh;
+  }
+  .hpny > div {
+    font-size: 50px;
+  }
+}
