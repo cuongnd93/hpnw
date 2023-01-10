@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
 }
+
 @font-face {
   font-family: font-great-vibe;
   src: url("GreatVibes-Regular.ttf");
@@ -23,9 +24,13 @@
   /* background-image: url("hpny.jpg"); */
 }
 
-img {
+.inamge1 {
   position: relative;
 }
+.hidden1 {
+  display: none;
+}
+
 .hpny > div {
   font-size: 3rem;
   color: rgba(243, 242, 242, 0);
@@ -150,7 +155,7 @@ img {
     transform: translateX(-20%);
   }
   100% {
-    text-shadow: 5px 5px 5px rgb(124, 9, 255);
+    text-shadow: 5px 5px 5px rgb(119, 0, 255);
     color: rgb(255, 255, 255);
     transform: translateX(0);
   }
@@ -163,4 +168,14 @@ img {
   .hpny > div {
     font-size: 2.5rem;
   }
+  .hidden1 {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+  }
 }
+/* .hidden1 {
+  display: none;
+} */
