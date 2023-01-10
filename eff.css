@@ -1,4 +1,9 @@
 @media (max-width: 550px) {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
   img {
     height: 100vh;
   }
@@ -34,6 +39,7 @@
     left: 0px;
     position: absolute;
     width: 100%;
+    /* flex-wrap: wrap; */
   }
 
   .ecffection {
@@ -95,24 +101,6 @@
     padding: 35px 2px;
     animation-delay: 5s;
     background-color: rgb(238, 164, 5);
-    animation-name: example;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    border-radius: 50%;
-  }
-  .eff6 {
-    padding: 35px 2px;
-    animation-delay: 6s;
-    background-color: rgb(191, 5, 238);
-    animation-name: example;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    border-radius: 50%;
-  }
-  .eff7 {
-    padding: 30px 2px;
-    animation-delay: 7s;
-    background-color: rgb(5, 238, 5);
     animation-name: example;
     animation-duration: 3s;
     animation-iteration-count: infinite;
