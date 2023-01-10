@@ -25,13 +25,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .hpny > div {
+  .container-mobile > div {
     font-size: 2.5rem;
 
     text-align: start;
   }
 
-  .hpny .icon {
+  .container-mobile .icon {
     font-size: 30px;
   }
 
