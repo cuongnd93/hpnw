@@ -9,7 +9,14 @@
   src: url("GreatVibes-Regular.ttf");
   font-style: normal;
 }
-
+.duyen,
+.bong,
+.hpny {
+  font-size: 3rem;
+  color: rgba(243, 242, 242, 0);
+  font-family: font-great-vibe;
+  font-weight: bold;
+}
 .container {
   display: flex;
   gap: 20px;
