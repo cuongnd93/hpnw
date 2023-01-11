@@ -4,18 +4,32 @@
     padding: 0;
     margin: 0;
   }
-  img {
+  /* img {
     height: 100vh;
+  } */
+
+  /* .hidden1 {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.5;
+  } */
+  .item1 {
+    animation-name: example1;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
   }
 
-  .hidden1 {
+  .hidden-carousel {
     display: block;
+  }
+  .inamge1 {
     position: absolute;
     top: 0px;
     left: 0px;
     opacity: 0.4;
   }
-
   .container-mobile {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,6 +56,15 @@
     }
     100% {
       transform: translatey(0);
+    }
+  }
+  @keyframes example1 {
+    0% {
+      transform: translatex(-50%);
+      background-color: rgba(250, 235, 215, 0);
+    }
+    100% {
+      transform: translatex(0);
     }
   }
 
