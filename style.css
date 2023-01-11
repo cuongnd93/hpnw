@@ -24,10 +24,10 @@
   /* background-image: url("hpny.jpg"); */
 }
 
-.inamge1 {
-  position: relative;
-}
-.hidden1 {
+/* .hidden1 {
+  display: none;
+} */
+.hidden-carousel {
   display: none;
 }
 
@@ -168,14 +168,11 @@
   .container > div {
     font-size: 2.5rem;
   }
-  .hidden1 {
+  /* .hidden1 {
     display: block;
     position: absolute;
     top: 0px;
     left: 0px;
     opacity: 0.5;
-  }
+  } */
 }
-/* .hidden1 {
-  display: none;
-} */
