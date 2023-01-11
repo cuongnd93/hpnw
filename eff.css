@@ -4,9 +4,10 @@
     padding: 0;
     margin: 0;
   }
-  /* img {
+  img {
     height: 100vh;
-  } */
+    position: relative;
+  }
 
   /* .hidden1 {
     display: block;
@@ -15,6 +16,19 @@
     left: 0px;
     opacity: 0.5;
   } */
+
+  .carousel-control-prev-icon {
+    padding: 30px;
+    animation-name: iconprev;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .carousel-control-next-icon {
+    padding: 30px;
+    animation-name: iconnext;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
   .item1 {
     animation-name: example1;
     animation-duration: 1.5s;
@@ -28,7 +42,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    opacity: 0.4;
+    opacity: 0.5;
   }
   .container-mobile {
     display: grid;
@@ -49,6 +63,20 @@
     font-size: 30px;
   }
 
+  .hiddentext {
+    display: none;
+  }
+
+  @keyframes cmnm1 {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      text-shadow: 5px 5px 5px rgb(119, 0, 255);
+      color: rgb(255, 255, 255);
+      /* transform: translateX(0); */
+    }
+  }
   @keyframes example {
     0% {
       transform: translatey(-100%);
@@ -60,7 +88,25 @@
   }
   @keyframes example1 {
     0% {
-      transform: translatex(-50%);
+      transform: translatex(-80%);
+      background-color: rgba(250, 235, 215, 0);
+    }
+    100% {
+      transform: translatex(0);
+    }
+  }
+  @keyframes iconprev {
+    0% {
+      transform: translatex(-10%);
+      background-color: rgba(250, 235, 215, 0);
+    }
+    100% {
+      transform: translatex(0);
+    }
+  }
+  @keyframes iconnext {
+    0% {
+      transform: translatex(10%);
       background-color: rgba(250, 235, 215, 0);
     }
     100% {
@@ -68,6 +114,62 @@
     }
   }
 
+  .duyen {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    word-spacing: 20px;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    text-align: left;
+    animation-name: cmnm1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+  }
+
+  .bong {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    word-spacing: 20px;
+    transform: translate(-50%, -50%);
+    font-size: 1.8rem;
+    text-align: left;
+    animation-name: cmnm1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+  }
+  .hpny {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-align: center;
+    animation-name: cmnm1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+  }
+  .iconcmnm1 {
+    color: red;
+    text-align: center;
+  }
+  .hidden-duyen {
+    display: none;
+  }
+  .hidden-bong {
+    display: none;
+  }
+  .hidden-hpny {
+    display: none;
+  }
   .eff-flex {
     display: flex;
     gap: 5px;
