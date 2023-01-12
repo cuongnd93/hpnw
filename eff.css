@@ -251,10 +251,7 @@
     border-bottom-right-radius: 50%;
   }
   .input {
-    position: absolute;
-    left: 50%;
-    top: 40%;
-    transform: translate(-50%, 50%);
+    
     height: 25px;
     width: 160px;
     font-size: 17px;
@@ -268,17 +265,16 @@
   .input:focus {
     outline: none;
   }
-.ip {
-position: absolute;
+  .ip {
+    position: absolute;
     left: 50%;
     top: 40%;
     transform: translate(-50%, 50%);
 }
   .input1 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-top:15px;
+    
+    
     height: 25px;
     width: 50px;
     font-size: 17px;
