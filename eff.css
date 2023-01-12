@@ -253,7 +253,7 @@
   .input {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, 50%);
     height: 25px;
     width: 160px;
@@ -271,7 +271,7 @@
   .input1 {
     position: absolute;
     left: 50%;
-    top: 59%;
+    top: 50%;
     transform: translate(-50%, -50%);
     height: 25px;
     width: 50px;
