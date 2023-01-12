@@ -197,7 +197,7 @@
     border-bottom-right-radius: 50%;
   }
   .eff1 {
-    padding: 90px 2px;
+    padding: 75px 2px;
 
     background-color: rgb(140, 224, 12);
     animation-delay: 1s;
@@ -219,7 +219,7 @@
     border-bottom-right-radius: 50%;
   }
   .eff3 {
-    padding: 80px 2px;
+    padding: 70px 2px;
     animation-delay: 2s;
     background-color: rgb(216, 203, 15);
     animation-name: example;
