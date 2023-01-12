@@ -4,9 +4,29 @@ const slide = document.querySelector(".carousel-control-next-icon");
 const slide1 = document.querySelector(".carousel-control-prev-icon");
 const imgduyen = document.querySelector(".item1");
 const hiddentext = document.querySelector(".container-mobile");
+const hiddentext1 = document.querySelector(".container");
 const duyen1 = document.querySelector(".duyen");
 const bong = document.querySelector(".bong");
 const hpny = document.querySelector(".hpny");
+const inputSubmit = document.querySelector(".input1");
+const hiddenInput = document.querySelectorAll("#di");
+const ten = document.querySelector(".text2");
+
+const carouselimg = document.querySelector(".carousel");
+
+inputSubmit.addEventListener("click", function () {
+  let input = document.querySelector(".input").value;
+  if (input !== "") {
+    console.log(input);
+    ten.textContent = input;
+    hiddentext1.classList.remove("hidden-content");
+    carouselimg.classList.remove("hidden-content");
+    for (let i = 0; i < hiddenInput.length; i++) {
+      hiddenInput[i].classList.add("hidden-input");
+    }
+  }
+});
+
 let duyen = 0;
 
 slide.addEventListener("click", function () {
