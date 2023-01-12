@@ -268,6 +268,12 @@
   .input:focus {
     outline: none;
   }
+.ip {
+position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 50%);
+}
   .input1 {
     position: absolute;
     left: 50%;
