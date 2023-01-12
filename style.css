@@ -183,3 +183,14 @@
     opacity: 0.5;
   } */
 }
+.mar {
+  width: 70%;
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-style: oblique;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
