@@ -172,7 +172,7 @@
   }
   .eff-flex {
     display: flex;
-    gap: 5px;
+   
     top: 0px;
     left: 0px;
     position: absolute;
@@ -188,7 +188,7 @@
   }
 
   .eff {
-    padding: 50px 2px;
+    padding: 50px 0.5px;
     background-color: rgb(234, 247, 214);
     animation-name: example;
     animation-duration: 3s;
@@ -197,7 +197,7 @@
     border-bottom-right-radius: 50%;
   }
   .eff1 {
-    padding: 75px 2px;
+    padding: 65px 0.5px;
 
     background-color: rgb(140, 224, 12);
     animation-delay: 1s;
@@ -209,7 +209,7 @@
   }
 
   .eff2 {
-    padding: 40px 2px;
+    padding: 40px 0.5px;
     background-color: rgb(208, 17, 247);
     animation-delay: 2s;
     animation-name: example;
@@ -219,7 +219,7 @@
     border-bottom-right-radius: 50%;
   }
   .eff3 {
-    padding: 70px 2px;
+    padding: 60px 0.5px;
     animation-delay: 2s;
     background-color: rgb(216, 203, 15);
     animation-name: example;
@@ -230,7 +230,7 @@
     border-bottom-right-radius: 50%;
   }
   .eff4 {
-    padding: 30px 2px;
+    padding: 30px 0.5px;
     animation-delay: 4s;
     background-color: rgb(99, 194, 250);
     animation-name: example;
@@ -241,7 +241,7 @@
     border-bottom-right-radius: 50%;
   }
   .eff5 {
-    padding: 35px 2px;
+    padding: 35px 0.5px;
     animation-delay: 5s;
     background-color: rgb(238, 164, 5);
     animation-name: example;
