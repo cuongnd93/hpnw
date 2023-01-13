@@ -11,7 +11,7 @@ const hpny = document.querySelector(".hpny");
 const inputSubmit = document.querySelector(".input1");
 const hiddenInput = document.querySelectorAll("#di");
 const ten = document.querySelector(".text2");
-const audiohidden = document.querySelector(".audi");
+const audiohidden = document.querySelector(".ad");
 const carouselimg = document.querySelector(".carousel");
 
 inputSubmit.addEventListener("click", function () {
@@ -19,7 +19,8 @@ inputSubmit.addEventListener("click", function () {
   if (input !== "") {
     console.log(input);
     ten.textContent = input;
-    audiohidden.classList.add("audiohidden");
+    audiohidden.classList.remove("audi");
+    audiohidden.classList.add("audi1");
     hiddentext1.classList.remove("hidden-content");
     carouselimg.classList.remove("hidden-content");
     for (let i = 0; i < hiddenInput.length; i++) {
