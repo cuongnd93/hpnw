@@ -300,5 +300,12 @@
   .audi {
     width: 30%;
     height: 20px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 50%);
+  }
+  .audiohidden {
+    display: none;
   }
 }
