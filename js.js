@@ -32,18 +32,24 @@ inputSubmit.addEventListener("click", function () {
 let duyen = 0;
 
 slide.addEventListener("click", function () {
-  if (duyen === 0) duyen++;
+  if (duyen < 3) {
+    duyen++;
+  }
 
+  console.log(duyen);
+  if (duyen == 0) {
+    imgduyen.src = `duyen${duyen}.jpg`;
+    hiddentext.classList.remove("hiddentext");
+    hpny.classList.add("hidden-hpny");
+  }
   if (duyen === 1) {
     imgduyen.src = `duyen${duyen}.jpg`;
     hiddentext.classList.add("hiddentext");
     duyen1.classList.remove("hidden-duyen");
-    duyen++;
   } else if (duyen === 2) {
     imgduyen.src = `duyen${duyen}.jpg`;
     duyen1.classList.add("hidden-duyen");
     bong.classList.remove("hidden-bong");
-    duyen++;
   } else if (duyen === 3) {
     imgduyen.src = `duyen${duyen}.jpg`;
     bong.classList.add("hidden-bong");
@@ -52,18 +58,19 @@ slide.addEventListener("click", function () {
 });
 
 slide1.addEventListener("click", function () {
-  if (duyen >= 2) duyen = 2;
+  if (duyen > 0) {
+    duyen--;
+    console.log(duyen);
+  }
 
   if (duyen === 2) {
     imgduyen.src = `duyen${duyen}.jpg`;
     hpny.classList.add("hidden-hpny");
     bong.classList.remove("hidden-bong");
-    duyen--;
   } else if (duyen === 1) {
     imgduyen.src = `duyen${duyen}.jpg`;
     bong.classList.add("hidden-bong");
     duyen1.classList.remove("hidden-duyen");
-    duyen--;
   } else if (duyen === 0) {
     imgduyen.src = `duyen${duyen}.jpg`;
     duyen1.classList.add("hidden-duyen");
