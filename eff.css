@@ -172,7 +172,7 @@
   }
   .eff-flex {
     display: flex;
-   
+
     top: 0px;
     left: 0px;
     position: absolute;
@@ -251,7 +251,6 @@
     border-bottom-right-radius: 50%;
   }
   .input {
-    
     height: 25px;
     width: 160px;
     font-size: 17px;
@@ -271,11 +270,10 @@
     top: 40%;
     transform: translate(-50%, 50%);
     text-align: center;
-}
+  }
   .input1 {
-    margin-top:15px;
-    
-    
+    margin-top: 15px;
+
     height: 25px;
     width: 50px;
     font-size: 17px;
@@ -298,5 +296,9 @@
   }
   .hidden-content {
     display: none;
+  }
+  .audi {
+    width: 30%;
+    height: 20px;
   }
 }
