@@ -54,7 +54,7 @@
     transform: translate(-50%, -50%);
   }
   .container-mobile > div {
-    font-size: 2.2rem;
+    font-size: 2rem;
 
     text-align: start;
   }
@@ -120,7 +120,7 @@
     top: 70%;
     word-spacing: 20px;
     transform: translate(-50%, -50%);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: left;
     animation-name: cmnm1;
     animation-fill-mode: forwards;
@@ -135,7 +135,7 @@
     top: 70%;
     word-spacing: 20px;
     transform: translate(-50%, -50%);
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-align: left;
     animation-name: cmnm1;
     animation-fill-mode: forwards;
