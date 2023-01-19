@@ -3,6 +3,7 @@
 const slide = document.querySelector(".carousel-control-next-icon");
 const slide1 = document.querySelector(".carousel-control-prev-icon");
 const imgduyen = document.querySelector(".item1");
+const imgHpny = document.querySelector(".inamge1");
 const hiddentext = document.querySelector(".container-mobile");
 const hiddentext1 = document.querySelector(".container");
 const duyen1 = document.querySelector(".duyen");
@@ -16,8 +17,9 @@ const carouselimg = document.querySelector(".carousel");
 
 inputSubmit.addEventListener("click", function () {
   let input = document.querySelector(".input").value;
+
+  console.log(input);
   if (input !== "") {
-    console.log(input);
     ten.textContent = input;
     audiohidden.classList.remove("audi");
     audiohidden.classList.add("audi1");
@@ -30,27 +32,34 @@ inputSubmit.addEventListener("click", function () {
 });
 
 let duyen = 0;
+let hpnyImg = 0;
 
 slide.addEventListener("click", function () {
   if (duyen < 3) {
     duyen++;
+    hpnyImg++;
   }
 
   console.log(duyen);
   if (duyen == 0) {
+    imgHpny.src = `hpny${hpnyImg}.jpg`;
     imgduyen.src = `duyen${duyen}.jpg`;
     hiddentext.classList.remove("hiddentext");
     hpny.classList.add("hidden-hpny");
   }
   if (duyen === 1) {
+    imgduyen.classList.add("imgborder");
+    imgHpny.src = `hpny${hpnyImg}.jpg`;
     imgduyen.src = `duyen${duyen}.jpg`;
     hiddentext.classList.add("hiddentext");
     duyen1.classList.remove("hidden-duyen");
   } else if (duyen === 2) {
+    imgHpny.src = `hpny${hpnyImg}.jpg`;
     imgduyen.src = `duyen${duyen}.jpg`;
     duyen1.classList.add("hidden-duyen");
     bong.classList.remove("hidden-bong");
   } else if (duyen === 3) {
+    imgHpny.src = `hpny${hpnyImg}.jpg`;
     imgduyen.src = `duyen${duyen}.jpg`;
     bong.classList.add("hidden-bong");
     hpny.classList.remove("hidden-hpny");
@@ -60,18 +69,22 @@ slide.addEventListener("click", function () {
 slide1.addEventListener("click", function () {
   if (duyen > 0) {
     duyen--;
+    hpnyImg--;
     console.log(duyen);
   }
 
   if (duyen === 2) {
+    imgHpny.src = `hpny${hpnyImg}.jpg`;
     imgduyen.src = `duyen${duyen}.jpg`;
     hpny.classList.add("hidden-hpny");
     bong.classList.remove("hidden-bong");
   } else if (duyen === 1) {
+    imgHpny.src = `hpny${hpnyImg}.jpg`;
     imgduyen.src = `duyen${duyen}.jpg`;
     bong.classList.add("hidden-bong");
     duyen1.classList.remove("hidden-duyen");
   } else if (duyen === 0) {
+    imgHpny.src = `hpny${hpnyImg}.jpg`;
     imgduyen.src = `duyen${duyen}.jpg`;
     duyen1.classList.add("hidden-duyen");
     hiddentext.classList.remove("hiddentext");
