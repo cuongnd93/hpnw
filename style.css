@@ -491,7 +491,8 @@
   left: 50%;
   transform: translateX(-50%);
   color: white;
+  font-size: 15px;
   font-style: oblique;
   text-shadow: 2px 2px 2px black;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
