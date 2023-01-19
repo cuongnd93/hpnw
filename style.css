@@ -487,12 +487,12 @@
 .mar {
   width: 70%;
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   font-style: oblique;
-  text-shadow: 2px 2px 2px black;
-  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px 1px black;
+  font-family: font-great-vibe;
 }
