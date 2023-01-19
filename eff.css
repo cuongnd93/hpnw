@@ -258,8 +258,9 @@
     border-radius: 50px;
     z-index: 100;
     border: none;
-    background-color: rgb(231, 235, 177);
+    background-color: rgb(243, 248, 165);
     font-family: font-great-vibe;
+    box-shadow: 1px 1px 10px rgb(5, 5, 5), 0px 0px 10px white;
   }
   .input:focus {
     outline: none;
@@ -272,7 +273,7 @@
     text-align: center;
   }
   .input1 {
-    margin-top: 15px;
+    margin-top: 20px;
 
     height: 25px;
     width: 50px;
@@ -281,8 +282,9 @@
     border-radius: 50px;
     z-index: 100;
     border: none;
-    background-color: rgb(231, 235, 177);
+    background-color: rgb(243, 248, 165);
     font-family: font-great-vibe;
+    box-shadow: 1px 1px 10px rgb(5, 5, 5), 0px 0px 10px white;
   }
 
   .input1:active {
@@ -298,12 +300,14 @@
     display: none;
   }
   .audi {
-    width: 150px;
-    height: 20px;
+    width: 160px;
+    height: 25px;
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 37%;
     transform: translate(-50%, 50%);
+    box-shadow: 1px 1px 10px rgb(5, 5, 5), 0px 0px 10px white;
+    border-radius: 50px;
   }
    .audi1 {
     width: 150px;
@@ -312,7 +316,7 @@
     left: 50%;
     top: 0%;
     transform: translate(-50%);
-    opacity: 0.5;
+    opacity: 0.4;
   }
   .audi1:hover {
     opacity: 1;
